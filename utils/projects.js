@@ -1,13 +1,13 @@
-// import JuneImg from "../public/static/images/june.png";
-// import GlitchstreamImg from "../public/static/images/glitchstream.png";
-import TechhuntImg from "../public/static/images/techhunt.png";
-// import QuizzardImg from "../public/static/images/quizzard.png";
-// import GlitchpopImg from "../public/static/images/glitchpop.png";
+import JuneImg from "../public/static/images/june.webp";
+import GlitchstreamImg from "../public/static/images/glitchstream.webp";
+import TechhuntImg from "../public/static/images/techhunt.webp";
+import QuizzardImg from "../public/static/images/quizzard.webp";
+import GlitchpopImg from "../public/static/images/glitchpop.webp";
 export const projects = [
   {
     id: 101,
     title: "JUNE",
-    img: "https://res.cloudinary.com/june-social/image/upload/v1625634566/assests/June-ss_yjqyog.png",
+    img: JuneImg,
     github: "https://github.com/t-rex777/june/tree/development",
     live: "https://june-social.netlify.app/",
     description: `It is a social media app like Instagram. It has a user feed page,
@@ -20,7 +20,7 @@ export const projects = [
   {
     id: 102,
     title: "GLITCHSTREAM",
-    img: "https://res.cloudinary.com/june-social/image/upload/v1625636164/assests/glitchstream-ss_kff5nl.png",
+    img: GlitchstreamImg,
     github: "https://github.com/t-rex777/glitchStream/tree/development",
     live: "https://glitchstream.netlify.app/",
     description: `It is a video library app just like Youtube. Users can watch videos according to different categories.
@@ -41,7 +41,7 @@ export const projects = [
   {
     id: 104,
     title: "QUIZZARD",
-    img: "https://res.cloudinary.com/june-social/image/upload/v1625678658/assests/quizzard-ss_paaxyl.png",
+    img: QuizzardImg,
     github: "https://github.com/t-rex777/quizzard-app/tree/development",
     live: "https://quizzard-app.netlify.app/",
     description: `It is a quiz application for people who love to watch web series. Users can also see their highscore in the home page.`,
@@ -50,7 +50,7 @@ export const projects = [
   {
     id: 105,
     title: "GLITCHPOP CSS",
-    img: "https://res.cloudinary.com/june-social/image/upload/v1625636816/assests/glitchpopCss-ss_amg6vx.png",
+    img: GlitchpopImg,
     github: "https://github.com/t-rex777/glitchpop-css/tree/development",
     live: "https://glitchpop-css.herokuapp.com/",
     description: `It is a lightweight CSS component library. I have used this component library in my other projects for reusability and easy to write code.`,

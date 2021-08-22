@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Me from "../public/static/images/me.jpg";
+import Me from "../public/static/images/me.webp";
 import Wave from "../public/static/images/wave.svg"
 function About() {
   return (

@@ -29,7 +29,7 @@ function Contact() {
           />
         </a>
         <a
-          href="https://github.com/t-rex777/june/tree/development"
+          href="https://github.com/t-rex777/"
           target="_blank"
         >
           <SiGithub

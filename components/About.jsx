@@ -17,7 +17,7 @@ function About() {
           />
         </div>
         <div className="sm:w-1/2 ">
-          <p className="aboutStyle">
+          <p className="aboutStyle ">
             I am a Front End Developer from India, experienced in building
             responsive, accessible websites and web applications. I know{" "}
             <span className="font-bold">

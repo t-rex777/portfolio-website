@@ -16,7 +16,7 @@ function Contact() {
       <h1 className="headingStyle ">CONTACT</h1>
       <p className="text-center mt-6 text-lg">
         I love to connect and work together, If you would like to work together,
-        Let's catch up over a cup of coffee
+        Let's catch up over a cup of coffee!
       </p>
       <div className="flex justify-center my-10">
         <a

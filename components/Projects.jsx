@@ -24,11 +24,11 @@ function Projects() {
               />
             </a>
           </div>
-          <div className="w-full sm:w-1/2 text-white mx-10">
-            <h1 className="text-3xl font-bold mb-5 ml-2 text-green-500">
+          <div className="w-full sm:w-1/2 text-white mx-12">
+            <h1 className="text-3xl font-bold mb-5  text-green-500">
               | {title} |
             </h1>
-            <p className="text-lg sm:text-sm lg:text-lg">{description}</p>
+            <p className="text-lg  sm:text-sm lg:text-lg ">{description}</p>
             <p className="font-bold text-purple-400 mt-3">
               Tech Stack : {stack}
             </p>

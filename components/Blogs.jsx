@@ -10,7 +10,7 @@ function Blogs() {
         {blogs.map(({ id, name, link, img, date, timetoread, description }) => (
           <div key={id} className="my-5 sm:my-10 mx-5">
             <a href={link} target="_blank" className="cursor-pointer">
-              <Image height={1080} width={1920} src={img} layout="responsive" />
+              <Image height={920} width={1920} src={img} layout="responsive" />
             </a>
             <h1 className="text-2xl font-bold mt-1">{name}</h1>
             <div className="flex my-2">

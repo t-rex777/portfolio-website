@@ -9,13 +9,13 @@ function Intro() {
         Hey,
       </h1>
       <h1 className="introStyle " ref={setRef}>
-        My name is <span className=" text-purple-600">Manish Kumar Sahu</span>{" "}
+        My name is <span className=" text-purple-600">Manish Kumar Sahu</span>
       </h1>
       <h1 className="introStyle " ref={setRef}>
         I am a Frontend Developer
       </h1>
       <button
-        className="btnStyle "
+        className="btnStyle mt-10 "
         ref={setRef}
         onClick={() => {
           window.scroll({ top: 6000, behavior: "smooth" });

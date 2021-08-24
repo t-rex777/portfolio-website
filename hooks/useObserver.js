@@ -12,19 +12,21 @@ function useObserver(className) {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add(className);
-        return
+        return;
       }
-    //   entry.target.classList.remove(className)
+      //   entry.target.classList.remove(className)
     });
   }
   useEffect(() => {
     const observer = new IntersectionObserver(handleIntersect, options);
-    elementRef.current.length > 0 &&
+    elementRef.current &&
+      elementRef.current.length > 0 &&
       elementRef.current.forEach((ele) => {
         observer.observe(ele);
       });
     return () => {
-      elementRef.current.length > 0 &&
+      elementRef.current &&
+        elementRef.current.length > 0 &&
         elementRef.current.forEach((ele) => {
           observer.unobserve(ele);
         });
